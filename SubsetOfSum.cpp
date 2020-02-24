@@ -1,7 +1,5 @@
-/*Subset Of Sum - Retrieves First occurred subset or the closest subset if there is an exists a subarray of array[0..n] for a given sum
-Dynamic Programming, in which subproblem solutions are Memoized rather than computed again and again.
-Below Memoized version follows the top-down approach,
-since we first break the problem into subproblems and then calculate and store values
+/*Subset Of Sum - Retrieves First occurred subset or the closest subset to sum T sunset in array I
+Top/Down dynamic programming using Memorized (storage) and recursion.
 
 The time complexity of above solution is O(n x sum. Auxiliary space used by the program is also O(n x sum)*/
 #include<stdio.h> 
